@@ -1,0 +1,14 @@
+.text-analyzer-wrapper{ 
+    padding: 2rem 2.5rem;
+}
+
+.text-analyzer-wrapper h1{ 
+    font-weight: 500;
+    font-size: 48px;
+    color: var(--header-color);
+}
+.text-analyzer-wrapper p{ 
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--para-color);
+}

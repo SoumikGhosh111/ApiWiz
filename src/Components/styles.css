@@ -1,0 +1,98 @@
+/* word input component */
+
+.input-field{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 3rem;
+}
+
+.input-field input{ 
+    flex: 0.9;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--input-border);
+}
+.input-field input:focus{ 
+    outline: none;
+}
+
+.word-input-wrapper button{ 
+    flex: 0.1;
+    padding: 1rem 1.5rem;
+    background-color: var(--button-color);
+    border: none;
+    color: var(--white);
+    font-weight: 400; 
+    font-size: 14px;
+    border-radius: 10px;
+}
+#word-input-table{ 
+    width: 50%;
+    border-collapse: collapse; 
+    margin-top: 3rem;
+}
+#word-input-table th, td{ 
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: start;
+}
+/* #word-input-table th{ 
+    font-weight: 500;
+    color: var(--th-color);
+} */
+/* #word-input-table td{ 
+    background-color: var(--td-bgcolor);
+} */
+
+
+
+
+
+
+
+
+
+/* paragraph input component */
+
+.paragraph-input-wrapper textarea{ 
+    width: 96%;
+    padding: 1rem 1.5rem;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid var(--input-border);
+
+}
+.paragraph-input-wrapper textarea:focus{ 
+    outline: none;
+}
+#paragraph-input-table{ 
+    width: 99.5%;
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+
+#paragraph-input-table th,td{ 
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+table th{ 
+    font-weight: 500;
+    color: var(--th-color);
+}
+table td{ 
+    background-color: var(--td-bgcolor);
+}
