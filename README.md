@@ -5,8 +5,7 @@ Real-Time Text Analyzer is a web application built with React that calculates va
 <ul>
   <li>Features</li>
   <li> Installation</li>
-   <li>Usage</li>
-  <li>Contributing</li>
+   <li>Deploy Link</li>
 </ul>
 <h2>Features</h2>
 <ul>
